@@ -2,6 +2,7 @@
 isssabelline(like skin):#F2EFE9
 erie black:#252627
 */
+/* styling header */
 header{
     height:125px;
     width:100%;
@@ -10,7 +11,7 @@ header{
     align-items: center;
   
 }
-
+/* using group selector to style li and a tag */
 li,a{
     list-style: none;
     text-decoration: none;
@@ -35,6 +36,7 @@ nav menu li a{
     color: #904e55;
     text-shadow:4px 2px 4px rgba(144, 78, 85, 0.7);
 }
+/* using hover to create effect */
 nav menu li a:hover{
     color:#252627;
     text-shadow:4px 2px 4px rgba(0, 0, 0, 0.7);
@@ -47,6 +49,7 @@ nav menu li a:hover{
     height:100%;
     width:auto;
 }
+/* using hover to create effect */
 .logo img:hover{
     filter: contrast(1.5);
 }
@@ -61,6 +64,7 @@ nav menu li a:hover{
     color:#904E55;
     text-shadow: 4px 2px 4px rgba(0,0,0,.7);
 }
+/*using before element to make blur effect*/
 .hero::before {
     content: "";
     background-size: 100% 100%;
@@ -74,6 +78,7 @@ nav menu li a:hover{
     z-index: -1; 
     animation: slider 10s linear infinite;
 }
+/* using animation to create effects */
 @keyframes slider{
     0%{background-image: url("../img/bg1.jpg");}
     30%{background-image: url("../img/bg2.jpg");}
@@ -132,6 +137,7 @@ color:#c0c0c0;
     color:#904E55;
     text-shadow: 2px 1px 2px rgba(255, 255, 255, 0.7)
 }
+/* styling footer */
 footer{
     background-color: #f2efe9;
     height:125px;
